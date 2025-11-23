@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket Wondimu | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Bereket Wondimu</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                
+                <!-- Language Selector -->
+                <div class="language-selector">
+                    <button class="language-btn" id="languageToggle">
+                        <i class="fas fa-globe"></i>
+                        <span id="currentLang">EN</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-dropdown" id="languageDropdown">
+                        <button class="lang-option" data-lang="en">
+                            <span>English</span>
+                            <span class="lang-code">EN</span>
+                        </button>
+                        <button class="lang-option" data-lang="am">
+                            <span>አማርኛ</span>
+                            <span class="lang-code">AM</span>
+                        </button>
+                        <button class="lang-option" data-lang="om">
+                            <span>Afaan Oromoo</span>
+                            <span class="lang-code">OM</span>
+                        </button>
+                        <button class="lang-option" data-lang="ar">
+                            <span>العربية</span>
+                            <span class="lang-code">AR</span>
+                        </button>
+                        <button class="lang-option" data-lang="ti">
+                            <span>ትግርኛ</span>
+                            <span class="lang-code">TI</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" 
+                                     data-am="አግኙን"
+                                     data-om="Nu Qunnamii"
+                                     data-ar="تواصل معي"
+                                     data-ti="ርኸበኒ">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3 data-en="Location" 
+                                data-am="አድራሻ"
+                                data-om="Bakka"
+                                data-ar="الموقع"
+                                data-ti="ከባቢ">Location</h3>
+                            <p>Gondar, Ethiopia</p>
+                            <p>University of Gondar<br>Atse Tewodros compass</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>bereketwondimutedla@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3 data-en="Phone" 
+                                data-am="ስልክ"
+                                data-om="Bilbila"
+                                data-ar="هاتف"
+                                data-ti="ተሌፎን">Phone</h3>
+                            <p>+251 961625446</p>
+                        </div>
+                    </div>
+                   <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div>
+                            <h3 data-en="Website" 
+                                data-am="ድር ጣቢያ"
+                                data-om="Website"
+                                data-ar="الموقع"
+                                data-ti="መርበብ ሓበሬታ">Website</h3>
+                            <p data-en="Coming Soon" 
+                               data-am="በቅርብ ይመጣል"
+                               data-om="Fuula Duraa Dhufa"
+                               data-ar="قريباً"
+                               data-ti="ብቕልጡፍ ክመጽእ">Coming Soon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required 
+                                   data-en-placeholder="Your Name"
+                                   data-am-placeholder="ስምዎ"
+                                   data-om-placeholder="Maqaa Keessan"
+                                   data-ar-placeholder="اسمك"
+                                   data-ti-placeholder="ስምካ">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required
+                                   data-en-placeholder="Your Email"
+                                   data-am-placeholder="ኢሜይልዎ"
+                                   data-om-placeholder="Imeeli Keessan"
+                                   data-ar-placeholder="بريدك الإلكتروني"
+                                   data-ti-placeholder="ኢመይልካ">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject"
+                                   data-en-placeholder="Subject"
+                                   data-am-placeholder="ርእስ"
+                                   data-om-placeholder="Mata Duree"
+                                   data-ar-placeholder="الموضوع"
+                                   data-ti-placeholder="ኣርእስቲ">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required
+                                      data-en-placeholder="Your Message"
+                                      data-am-placeholder="መልእክትዎ"
+                                      data-om-placeholder="Ergaa Keessan"
+                                      data-ar-placeholder="رسالتك"
+                                      data-ti-placeholder="መልእኽቲኻ"></textarea>
+                        </div>
+                        <button type="submit" class="btn" data-en="Send Message" 
+                                                          data-am="መልእክት ይላኩ"
+                                                          data-om="Ergaa Ergaa"
+                                                          data-ar="إرسال الرسالة"
+                                                          data-ti="መልእኽቲ ስደድ">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Bereket<span>Wondimu</span></div>
+                    <p data-en="Information Systems student passionate about creating digital solutions that make a difference." 
+                       data-am="የመረጃ ስርዓት ተማሪ ልዩነት የሚፈጥሩ ዲጂታል መፍትሄዎችን በጉጉት የምፈጥር።"
+                       data-om="Barataa Information Systems ta'ee furmaata dijiitaalaa adda addaa uumuuf dhihoo dha."
+                       data-ar="طالب نظم معلومات شغوف بإنشاء حلول رقمية تحدث فرقاً."
+                       data-ti="ተማሃራይ ስርዓት ሓበሬታ እየ ፡ ፍልይታት ዝፈጥሩ ዲጂታል መፍትሃት ንምፍጣር ተጻወታይ እየ።">
+                        Information Systems student passionate about creating digital solutions that make a difference.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h3 data-en="Quick Links" 
+                        data-am="ፈጣን አገናኞች"
+                        data-om="Linkilee Saffisaan"
+                        data-ar="روابط سريعة"
+                        data-ti="ቅልጡፍ ሊንክታት">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">
+                            <span data-en="Home" 
+                                data-am="መነሻ"
+                                data-om="Mana"
+                                data-ar="الرئيسية"
+                                data-ti="መእተዊ">Home</span>
+                        </a></li>
+                        <li><a href="about.html">
+                            <span data-en="About" 
+                                data-am="ስለ እኔ"
+                                data-om="Waa'ee"
+                                data-ar="عنّي"
+                                data-ti="ብዛዕባይ">About</span>
+                        </a></li>
+                        <li><a href="contact.html">
+                            <span data-en="Contact" 
+                                data-am="አግኙን"
+                                data-om="Nu Qunnamaa"
+                                data-ar="اتصل بي"
+                                data-ti="ርኸበኒ">Contact</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3 data-en="Connect With Me" 
+                        data-am="ከኔ ጋር ይገናኙ"
+                        data-om="Na Waliin Walqunnamuu"
+                        data-ar="تواصل معي"
+                        data-ti="ምሳይ ተተሓሒዙ">Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://t.me/Berow7" class="social-icon" title="Message me on Telegram" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                    <div class="telegram-direct">
+                        <p><strong data-en="Quick Contact:" 
+                                   data-am="ፈጣን አግኝነት:"
+                                   data-om="Qunnamuu Saffisaan:"
+                                   data-ar="اتصال سريع:"
+                                   data-ti="ቅልጡፍ ርኸባት:">Quick Contact:</strong></p>
+                        <a href="https://t.me/Berow7" class="btn-telegram-small" target="_blank">
+                            <i class="fab fa-telegram"></i> 
+                            <span data-en="Message on Telegram" 
+                                  data-am="በቴሌግራም ይጻፉልኝ"
+                                  data-om="Telegram irratti Natti Barreessaa"
+                                  data-ar="راسلني على تيليجرام"
+                                  data-ti="ኣብ ቴሌግራም ጽሓፈለይ">Message on Telegram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Bereket Wondimu. <span data-en="All Rights Reserved." 
+                                                     data-am="ሁሉም መብቶች የተጠበቁ ናቸው።"
+                                                     data-om="Hunda Mirgaa Kan Of Eeggannoo Dha."
+                                                     data-ar="جميع الحقوق محفوظة."
+                                                     data-ti="ኩሉ መሰላት ይዕቀብ እዩ።">All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

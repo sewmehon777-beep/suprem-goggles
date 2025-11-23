@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket Wondimu | About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Bereket Wondimu</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <!-- Language Selector -->
+                <div class="language-selector">
+                    <button class="language-btn" id="languageToggle">
+                        <i class="fas fa-globe"></i>
+                        <span id="currentLang">EN</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-dropdown" id="languageDropdown">
+                        <button class="lang-option" data-lang="en">
+                            <span>English</span>
+                            <span class="lang-code">EN</span>
+                        </button>
+                        <button class="lang-option" data-lang="am">
+                            <span>አማርኛ</span>
+                            <span class="lang-code">AM</span>
+                        </button>
+                        <button class="lang-option" data-lang="om">
+                            <span>Afaan Oromoo</span>
+                            <span class="lang-code">OM</span>
+                        </button>
+                        <button class="lang-option" data-lang="ar">
+                            <span>العربية</span>
+                            <span class="lang-code">AR</span>
+                        </button>
+                        <button class="lang-option" data-lang="ti">
+                            <span>ትግርኛ</span>
+                            <span class="lang-code">TI</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Me" 
+                                     data-am="ስለ እኔ"
+                                     data-om="Waa'ee Koo"
+                                     data-ar="عنّي"
+                                     data-ti="ብዛዕባይ">About Me</h2>
+            <div class="about-content">
+                <div class="profile-img">
+                    <img src="photo/8.jpg" alt="Bereket Wondimu">
+                </div>
+                <div class="about-text">
+                    <h2 data-en="Hello, I'm Bereket Wondimu" 
+                        data-am="ሰላም፣ እኔ በሬኬት ወንድሙ ነኝ"
+                        data-om="Akkam, Ani Bereket Wondimu dha"
+                        data-ar="مرحباً، أنا بركت ونديمو"
+                        data-ti="ሰላም፣ ኣነ በረከት ወንድሙ እየ">Hello, I'm Bereket Wondimu</h2>
+                    <p data-en="I'm a third-year Information Systems student with a passion for web development. I enjoy creating digital solutions that solve real-world problems." 
+                       data-am="እኔ ሦስተኛ አመት የመረጃ ስርዓት ተማሪ ነኝ እና በድር ጣቢያ ልማት፣ የውሂብ ትንተና እና የተጠቃሚ ተሞክሮ ንዮገን ላይ ትኩረት አለኝ። በተለያዩ ችግሮች መፍትሄ የሚሰጡ ዲጂታል መፍትሄዎችን መፍጠር እወዳለሁ።"
+                       data-om="Ani waggaa sadaffaa barataa Information Systems ta'ee, website development, data analysis fi user experience design irratti dhihoo dha. Furmaata dijiitaalaa dhimmaalee addunyaa irraa furu uumuun nan jaaladha."
+                       data-ar="أنا طالب نظم معلومات في السنة الثالثة، شغوف بتطوير الويب وتحليل البيانات وتصميم تجربة المستخدم. أستمتع بإنشاء حلول رقمية تحل مشاكل حقيقية."
+                       data-ti="ኣነ ሳልሳይ ዓመት ተማሃራይ ስርዓት ሓበሬታ እየ ፡ ተጻወታይ ምዕባለ መርበብ ሓበሬታን ትንተና ውሂብን ዲዛይን ተመክሮ ተጠቃሚን እየ። ኣገባብ እቲ ዓለም ዝፈትሕ ዲጂታል መፍትሃት ንምፍጣር እፈትዎ።">
+                        I'm a third-year Information Systems student with a passion for web development. I enjoy creating digital solutions that solve real-world problems.
+                    </p>
+                    <p data-en="When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in the great outdoors." 
+                       data-am="ስለሆነም ኮድ ሳልጠፍ አዲስ ቴክኖሎጂዎችን ማጥናት፣ ለክፍት ምንጭ ፕሮጀክቶች መርታዊነት ማበርከት ወይም በተፈጥሮ ውስጥ መጓዝ እወዳለሁ።"
+                       data-om="Yeroo koodii hin barreessin, teeknooloojii haarawaa qoqqooduu, proojektii open-source irratti hirmaachuu, ykn alaa deemuun nan jaaladha."
+                       data-ar="عندما لا أكتب كود، يمكنك أن تجدني أستكشف تقنيات جديدة، أو أساهم في مشاريع مفتوحة المصدر، أو أتمشى في الهواء الطلق."
+                       data-ti="መወዳእታ ኮድ ኣብ ዘይጽሕፍ እወይ ፡ ሓድሽ ቴክኖሎጂታት ክምርምር ፡ ንፕሮጀክት ክፍቲ ምንጪ ክሳተፍ ወይ ኣብ ተፈጥሮኣዊ መሬት ክጓዓዝ ትረኽበኒ።">
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in the great outdoors.
+                    </p>
+                    
+                    <div class="skills">
+                        <h3 data-en="My Skills" 
+                            data-am="ስልጣኔዎቼ"
+                            data-om="Qophii Koo"
+                            data-ar="مهاراتي"
+                            data-ti="ክእለተይ">My Skills</h3>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>25%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>C++</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span data-en="Database Management" 
+                                      data-am="የውሂብ ጎታ አስተዳደር"
+                                      data-om="Database Management"
+                                      data-ar="إدارة قواعد البيانات"
+                                      data-ti="ምምሕዳር ቤት ውሂብ">Database Management</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Bereket<span>Wondimu</span></div>
+                    <p data-en="Information Systems student passionate about creating digital solutions that make a difference." 
+                       data-am="የመረጃ ስርዓት ተማሪ ልዩነት የሚፈጥሩ ዲጂታል መፍትሄዎችን በጉጉት የምፈጥር።"
+                       data-om="Barataa Information Systems ta'ee furmaata dijiitaalaa adda addaa uumuuf dhihoo dha."
+                       data-ar="طالب نظم معلومات شغوف بإنشاء حلول رقمية تحدث فرقاً."
+                       data-ti="ተማሃራይ ስርዓት ሓበሬታ እየ ፡ ፍልይታት ዝፈጥሩ ዲጂታል መፍትሃት ንምፍጣር ተጻወታይ እየ።">
+                        Information Systems student passionate about creating digital solutions that make a difference.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h3 data-en="Quick Links" 
+                        data-am="ፈጣን አገናኞች"
+                        data-om="Linkilee Saffisaan"
+                        data-ar="روابط سريعة"
+                        data-ti="ቅልጡፍ ሊንክታት">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">
+                            <span data-en="Home" 
+                                data-am="መነሻ"
+                                data-om="Mana"
+                                data-ar="الرئيسية"
+                                data-ti="መእተዊ">Home</span>
+                        </a></li>
+                        <li><a href="about.html">
+                            <span data-en="About" 
+                                data-am="ስለ እኔ"
+                                data-om="Waa'ee"
+                                data-ar="عنّي"
+                                data-ti="ብዛዕባይ">About</span>
+                        </a></li>
+                        <li><a href="contact.html">
+                            <span data-en="Contact" 
+                                data-am="አግኙን"
+                                data-om="Nu Qunnamaa"
+                                data-ar="اتصل بي"
+                                data-ti="ርኸበኒ">Contact</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3 data-en="Connect With Me" 
+                        data-am="ከኔ ጋር ይገናኙ"
+                        data-om="Na Waliin Walqunnamuu"
+                        data-ar="تواصل معي"
+                        data-ti="ምሳይ ተተሓሒዙ">Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://t.me/Berow7" class="social-icon" title="Message me on Telegram" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                    <div class="telegram-direct">
+                        <p><strong data-en="Quick Contact:" 
+                                   data-am="ፈጣን አግኝነት:"
+                                   data-om="Qunnamuu Saffisaan:"
+                                   data-ar="اتصال سريع:"
+                                   data-ti="ቅልጡፍ ርኸባት:">Quick Contact:</strong></p>
+                        <a href="https://t.me/Berow7" class="btn-telegram-small" target="_blank">
+                            <i class="fab fa-telegram"></i> 
+                            <span data-en="Message on Telegram" 
+                                  data-am="በቴሌግራም ይጻፉልኝ"
+                                  data-om="Telegram irratti Natti Barreessaa"
+                                  data-ar="راسلني على تيليجرام"
+                                  data-ti="ኣብ ቴሌግራም ጽሓፈለይ">Message on Telegram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Bereket Wondimu. <span data-en="All Rights Reserved." 
+                                                     data-am="ሁሉም መብቶች የተጠበቁ ናቸው።"
+                                                     data-om="Hunda Mirgaa Kan Of Eeggannoo Dha."
+                                                     data-ar="جميع الحقوق محفوظة."
+                                                     data-ti="ኩሉ መሰላት ይዕቀብ እዩ።">All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

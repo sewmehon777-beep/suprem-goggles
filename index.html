@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket Wondimu | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- First-visit alert (appears only on first visit) -->
+    <div id="firstVisitAlert" class="first-visit-alert" aria-hidden="true">
+        <div class="alert-inner">
+            <div class="alert-icon" aria-hidden="true">
+                <img src="photo/8.jpg" alt="Profile" class="popup-profile-pic" />
+            </div>
+            <div class="alert-text">
+                <strong data-en="Welcome to My Personal Website! 🎉">Welcome to My Personal Website! 🎉</strong>
+                <p data-en="I'm Bereket Wondimu, an Information Systems student passionate about technology and web development.">I'm Bereket Wondimu, an Information Systems student passionate about technology and web development.</p>
+            </div>
+            <div class="alert-actions">
+                <button id="alertExploreBtn" class="btn" data-en="Explore My Website">Explore My Website</button>
+                <button id="alertLearnMoreBtn" class="btn btn-outline" data-en="Learn More About Me">Learn More About Me</button>
+            </div>
+            <button class="alert-close" aria-label="Close">&times;</button>
+        </div>
+    </div>
+    <!-- Welcome popup removed as requested -->
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="photo/8.jpg" alt="Bereket Wondimu" class="header-profile-pic">
+                    Bereket Wondimu
+                </a>
+                <ul class="nav-links">
+                          <li><a href="index.html" class="active" 
+                           data-en="Home" 
+                           data-am="መነሻ"
+                           data-om="Mana"
+                           data-ar="الرئيسية"
+                           data-ti="መእተዊ">Home</a></li>
+                    <li><a href="about.html" 
+                           data-en="About" 
+                           data-am="ስለ እኔ"
+                           data-om="Waa'ee"
+                           data-ar="عنّي"
+                           data-ti="ብዛዕባይ">About</a></li>
+                    <li><a href="contact.html" 
+                           data-en="Contact" 
+                           data-am="አግኙን"
+                           data-om="Nu Qunnamaa"
+                           data-ar="اتصل بي"
+                           data-ti="ርኸበኒ">Contact</a></li>
+                </ul>
+                
+                <!-- Language Selector -->
+                <div class="language-selector">
+                    <button class="language-btn" id="languageToggle">
+                        <i class="fas fa-globe"></i>
+                        <span id="currentLang">EN</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-dropdown" id="languageDropdown">
+                        <button class="lang-option" data-lang="en">
+                            <span>English</span>
+                            <span class="lang-code">EN</span>
+                        </button>
+                        <button class="lang-option" data-lang="am">
+                            <span>አማርኛ</span>
+                            <span class="lang-code">AM</span>
+                        </button>
+                        <button class="lang-option" data-lang="om">
+                            <span>Afaan Oromoo</span>
+                            <span class="lang-code">OM</span>
+                        </button>
+                        <button class="lang-option" data-lang="ar">
+                            <span>العربية</span>
+                            <span class="lang-code">AR</span>
+                        </button>
+                        <button class="lang-option" data-lang="ti">
+                            <span>ትግርኛ</span>
+                            <span class="lang-code">TI</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bereket Wondimu</h1>
+                <p data-en="Information Systems Student & Aspiring Developer" 
+                   data-am="የመረጃ ስርዓት ተማሪ እና ተጋባዥ ገንቢ"
+                   data-om="Barataa Information Systems & Developer ta'uu fedhe"
+                   data-ar="طالب نظم المعلومات ومطور طموح"
+                   data-ti="ተማሃራይ ስርዓት ሓበሬታን ተጻወታይ ምዕባለን">Information Systems Student & Aspiring Developer</p>
+                
+                <!-- Click Here Indicators -->
+                <div class="click-indicators">
+                   <div class="click-item">
+                       <i class="fas fa-mouse-pointer"></i>
+                       <span data-en="Click here to view my skills" 
+                             data-am="ስልጣኔዎቼን ለማየት እዚህ ይጫኑ"
+                             data-om="Qophii koo ilaaluuf asii cuqi"
+                             data-ar="انقر هنا لعرض مهاراتي"
+                             data-ti="ክእለተይ ንምርኣይ ኣብዚ ጠውቑ">Click here to view my skills</span>
+                   </div>
+                    <div class="click-item">
+                        <i class="fas fa-hand-point-down"></i>
+                        <span data-en="Click here to see my journey" 
+                              data-am="ጉዞዬን ለማየት እዚህ ይጫኑ"
+                              data-om="Imala koo ilaaluuf asii cuqi"
+                              data-ar="انقر هنا لرؤية رحلتي"
+                              data-ti="ጉዕዞይ ንምርኣይ ኣብዚ ጠውቑ">Click here to see my journey</span>
+                    </div>
+                </div>
+                
+                <div class="hero-btns">
+                    <a href="about.html" class="btn">
+                        <i class="fas fa-user"></i> 
+                        <span data-en="Learn More About Me" 
+                              data-am="ስለ እኔ የበለጠ ይወቁ"
+                              data-om="Waa'ee koo Dabalataan Baradhu"
+                              data-ar="اعرف المزيد عني"
+                              data-ti="ብዛዕባይ ተወሳኺ ሓበሬታ ርኸቡ">Learn More About Me</span>
+                    </a>
+                    <a href="contact.html" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i> 
+                        <span data-en="Get In Touch" 
+                              data-am="ያግኙኝ"
+                              data-om="Nu Qunnamii"
+                              data-ar="تواصل معي"
+                              data-ti="ርኸበኒ">Get In Touch</span>
+                    </a>
+                </div>
+                
+                <!-- Quick Links Section -->
+                <div class="quick-links">
+                    <h3 data-en="Quick Access - Click Here:" 
+                        data-am="ፈጣን መዳረሻ - እዚህ ይጫኑ:"
+                        data-om="Accessa Saffisaan - Asii Cuqi:"
+                        data-ar="وصول سريع - انقر هنا:"
+                        data-ti="ቅልጡፍ መድረስ - ኣብዚ ጠውቑ:">Quick Access - Click Here:</h3>
+                    <div class="link-cards">
+                        <a href="about.html" class="link-card">
+                            <i class="fas fa-user-tie"></i>
+                            <span data-en="About Me" 
+                                  data-am="ስለ እኔ"
+                                  data-om="Waa'ee Koo"
+                                  data-ar="عنّي"
+                                  data-ti="ብዛዕባይ">About Me</span>
+                            <small data-en="Click to learn more" 
+                                   data-am="ለበለጠ መረጃ ይጫኑ"
+                                   data-om="Dabalataan Barachuuf Cuqi"
+                                   data-ar="انقر لمعرفة المزيد"
+                                   data-ti="ተወሳኺ ሓበሬታ ንምርካብ ጠውቑ">Click to learn more</small>
+                        </a>
+                        <a href="contact.html" class="link-card">
+                            <i class="fas fa-envelope"></i>
+                            <span data-en="Contact" 
+                                  data-am="አግኙን"
+                                  data-om="Nu Qunnamaa"
+                                  data-ar="اتصل بي"
+                                  data-ti="ርኸበኒ">Contact</span>
+                            <small data-en="Click to connect" 
+                                   data-am="ለመገናኘት ይጫኑ"
+                                   data-om="Walqunnamuuf Cuqi"
+                                   data-ar="انقر للاتصال"
+                                   data-ti="ንምትእስሳር ጠውቑ">Click to connect</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Preview -->
+    <section class="features-preview">
+        <div class="container">
+            <h2 class="section-title" data-en="Discover My World" 
+                                     data-am="ዓለሜን ያውቁ"
+                                     data-om="Addunyaa Koo Qoqi"
+                                     data-ar="اكتشف عالمي"
+                                     data-ti="ዓለምይ ርኸቡ">Discover My World</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-en="My Skills" 
+                        data-am="ስልጣኔዎቼ"
+                        data-om="Qophii Koo"
+                        data-ar="مهاراتي"
+                        data-ti="ክእለተይ">My Skills</h3>
+                    <p data-en="Explore my technical abilities" 
+                       data-am="ቴክኒካዊ ችሎታዎቼን ያውቁ"
+                       data-om="Qophii Teknikaalaa Koo Qoqi"
+                       data-ar="استكشف قدراتي التقنية"
+                       data-ti="ተክኒካዊ ክእለተይ ርኸቡ">Explore my technical abilities</p>
+                    <a href="about.html" class="feature-link">
+                        <span data-en="Click here to view" 
+                              data-am="ለማየት እዚህ ይጫኑ"
+                              data-om="Ilaaluuf Asii Cuqi"
+                              data-ar="انقر هنا للمشاهدة"
+                              data-ti="ንምርኣይ ኣብዚ ጠውቑ">Click here to view</span> 
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 data-en="Let's Talk" 
+                        data-am="እንነጋገር"
+                        data-om="Haasofnu"
+                        data-ar="لنتحدث"
+                        data-ti="ንዘራረብ">Let's Talk</h3>
+                    <p data-en="Get in touch for collaborations or questions" 
+                       data-am="ለትብብር ወይም ጥያቄዎች ያግኙኝ"
+                       data-om="Waltajjii ykn Gaaffilee irratti Nu Qunnamii"
+                       data-ar="تواصل معي للتعاون أو للاستفسارات"
+                       data-ti="ንምትእስሳር ወይ ሕቶታት ርኸበኒ">Get in touch for collaborations or questions</p>
+                    <a href="contact.html" class="feature-link">
+                        <span data-en="Click here to connect" 
+                              data-am="ለመገናኘት እዚህ ይጫኑ"
+                              data-om="Walqunnamuuf Asii Cuqi"
+                              data-ar="انقر هنا للاتصال"
+                              data-ti="ንምትእስሳር ኣብዚ ጠውቑ">Click here to connect</span> 
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Bereket<span>Wondimu</span></div>
+                    <p data-en="Information Systems student passionate about creating digital solutions that make a difference." 
+                       data-am="የመረጃ ስርዓት ተማሪ ልዩነት የሚፈጥሩ ዲጂታል መፍትሄዎችን በጉጉት የምፈጥር።"
+                       data-om="Barataa Information Systems ta'ee furmaata dijiitaalaa adda addaa uumuuf dhihoo dha."
+                       data-ar="طالب نظم معلومات شغوف بإنشاء حلول رقمية تحدث فرقاً."
+                       data-ti="ተማሃራይ ስርዓት ሓበሬታ እየ ፡ ፍልይታት ዝፈጥሩ ዲጂታል መፍትሃት ንምፍጣር ተጻወታይ እየ።">
+                        Information Systems student passionate about creating digital solutions that make a difference.
+                    </p>
+                    <div class="welcome-note">
+                        <strong data-en="Thanks for visiting! 👋" 
+                                data-am="ስለ ጉብኝትዎ እናመሰግናለን! 👋"
+                                data-om="Dhuftanii Galatoomaa! 👋"
+                                data-ar="شكراً لزيارتك! 👋"
+                                data-ti="ስለ ምብጻሕኩም የቐንየለን! 👋">Thanks for visiting! 👋</strong>
+                        <p data-en="Feel free to explore all sections of my website" 
+                           data-am="የድር ጣቢያዬን ሁሉንም ክፍሎች በነፃነት ያስሱ"
+                           data-om="Website koo hunda free ta'een saayinsii"
+                           data-ar="لا تتردد في استكشاف جميع أقسام موقعي"
+                           data-ti="ንኹሉ ክፍሊ መርበብ ሓበሬታይ ብነፃ ምርምር">Feel free to explore all sections of my website</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 data-en="Quick Links" 
+                        data-am="ፈጣን አገናኞች"
+                        data-om="Linkilee Saffisaan"
+                        data-ar="روابط سريعة"
+                        data-ti="ቅልጡፍ ሊንክታት">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">
+                            <span data-en="Home" 
+                                data-am="መነሻ"
+                                data-om="Mana"
+                                data-ar="الرئيسية"
+                                data-ti="መእተዊ">Home</span>
+                        </a></li>
+                        <li><a href="about.html">
+                            <span data-en="About" 
+                                data-am="ስለ እኔ"
+                                data-om="Waa'ee"
+                                data-ar="عنّي"
+                                data-ti="ብዛዕባይ">About</span>
+                        </a></li>
+                        <li><a href="contact.html">
+                            <span data-en="Contact" 
+                                data-am="አግኙን"
+                                data-om="Nu Qunnamaa"
+                                data-ar="اتصل بي"
+                                data-ti="ርኸበኒ">Contact</span>
+                        </a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3 data-en="Connect With Me" 
+                        data-am="ከኔ ጋር ይገናኙ"
+                        data-om="Na Waliin Walqunnamuu"
+                        data-ar="تواصل معي"
+                        data-ti="ምሳይ ተተሓሒዙ">Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://t.me/Berow7" class="social-icon" title="Message me on Telegram" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                    <div class="telegram-direct">
+                        <p><strong data-en="Quick Contact:" 
+                                   data-am="ፈጣን አግኝነት:"
+                                   data-om="Qunnamuu Saffisaan:"
+                                   data-ar="اتصال سريع:"
+                                   data-ti="ቅልጡፍ ርኸባት:">Quick Contact:</strong></p>
+                        <a href="https://t.me/Berow
+                            <i class="fab fa-telegram"></i> 
+                            <span data-en="Message on Telegram" 
+                                  data-am="በቴሌግራም ይጻፉልኝ"
+                                  data-om="Telegram irratti Natti Barreessaa"
+                                  data-ar="راسلني على تيليجرام"
+                                  data-ti="ኣብ ቴሌግራም ጽሓፈለይ">Message on Telegram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-prompt">
+                <p><strong data-en="Have questions?" 
+                           data-am="ጥያቄ አለዎት?"
+                           data-om="Gaaffilee Qabduu?"
+                           data-ar="هل لديك أسئلة؟"
+                           data-ti="ሕቶታት ኣለዉኩም?">Have questions?</strong></p>
+                <a href="contact.html" class="btn btn-small">
+                    <span data-en="Click here to contact me" 
+                          data-am="እኔን ለመገናኘት እዚህ ይጫኑ"
+                          data-om="Na Qunnamuuf Asii Cuqi"
+                          data-ar="انقر هنا للاتصال بي"
+                          data-ti="ንምትእስሳር ምሳይ ኣብዚ ጠውቑ">Click here to contact me</span> 
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Bereket Wondimu. <span data-en="All Rights Reserved." 
+                                                     data-am="ሁሉም መብቶች የተጠበቁ ናቸው።"
+                                                     data-om="Hunda Mirgaa Kan Of Eeggannoo Dha."
+                                                     data-ar="جميع الحقوق محفوظة."
+                                                     data-ti="ኩሉ መሰላት ይዕቀብ እዩ።">All Rights Reserved.</span> 
+                   <span class="welcome-msg" data-en="Welcome to my personal space! 🚀" 
+                                           data-am="ወደ እኔ የግል ቦታ እንኳን በደህና መጡ! 🚀"
+                                           data-om="Baga nagaan dhuftan iddoo koo dhuftan! 🚀"
+                                           data-ar="مرحباً بكم في مساحتي الشخصية! 🚀"
+                                           data-ti="እንቋዕ ብደሓን መጻእኩም ናብ ናይ ብሕቲ ቦታይ! 🚀">Welcome to my personal space! 🚀</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
